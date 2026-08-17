@@ -6,7 +6,6 @@ function toggleMode() {
 
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/perfil-light.png")
-    img.setAttribute("alt", "foto etc e tal")
   } else {
     img.setAttribute("src", "./assets/perfil-normal.png")
   }
