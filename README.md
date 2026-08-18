@@ -26,15 +26,19 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## ⚙️ Ajustes e Melhorias
 
-O projeto ainda está em desenvolvimento e as próximas atualizaçções serão voltadas para as seguintes tarefas:
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
 
 - [x] Efeito hover nos botões
 - [x] Dark Mode e Light Mode funcional
-- [ ] Animação do switch na troca de modo
+- [x] Animação do switch na troca de modo
+- [x] Efeito hover com aspecto brilhante no footer
+- [x] Efeito hover no switch
 
 ## 💻 Projeto
 
-O projeto é basicamente um agregador de link como um cartão de visitas online.
+O projeto é basicamente um agregador de links como um cartão de visitas online.
+
+- [Acesse o projeto finalizado, online](https://thomassz1.github.io/Projeto)
 
 ## Licença
 
