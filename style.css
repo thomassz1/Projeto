@@ -75,10 +75,11 @@ body * {
   transform: translateY(-50%);
 
   animation: slideout 0.4s;
+  transition: box-shadow 0.8s;
 }
 
 #switch button:hover {
-  outline: 8px solid var(--highlight-color-hover);
+  box-shadow: 0 0 0 8px var(--highlight-color-hover);
 }
 
 .light #switch button {
