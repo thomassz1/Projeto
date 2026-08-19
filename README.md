@@ -33,6 +33,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Animação do switch na troca de modo
 - [x] Efeito hover com aspecto brilhante no footer
 - [x] Efeito hover no switch
+- [x] Transição suave de background ao utilizar o switch
 
 ## 💻 Projeto
 
