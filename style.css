@@ -36,7 +36,8 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  z-index: -1;
+  z-index: 0;
+  pointer-events: none;
 
   background: url(./assets/bg-mobile-light.jpg) no-repeat top center/cover;
   opacity: 0;
@@ -51,6 +52,8 @@ html.light body::before {
   max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
+  position: relative;
+  z-index: 1;
 }
 
 #profile {
