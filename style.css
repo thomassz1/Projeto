@@ -74,44 +74,59 @@ html.light body::before {
 
 #switch {
   position: relative;
+  display: block;
+
   width: 64px;
+  height: 32px;
   margin: 4px auto;
+
+  background: transparent;
+  border: 0;
+  cursor: pointer;
 }
 
-#switch button {
+#bolinha {
   width: 32px;
   height: 32px;
+
   background: white var(--switch-bg-url) no-repeat center;
-  border: 0;
   border-radius: 50%;
 
   position: absolute;
   top: 50%;
   left: 0;
   z-index: 1;
+
   transform: translateY(-50%);
 
   animation: slideout 0.4s;
   transition: box-shadow 0.8s;
+}
+#barra {
+  position: absolute;
+
+  width: 64px;
+  height: 24px;
+
+  left: 0;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  background-color: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  border-radius: 9999px;
 }
 
 #switch button:hover {
   box-shadow: 0 0 0 8px var(--highlight-color-hover);
 }
 
-.light #switch button {
+.light #bolinha {
   animation: slidein 0.4s forwards;
-}
-
-#switch span {
-  display: block;
-  width: 64px;
-  height: 24px;
-  background-color: var(--surface-color);
-  border: 1px solid var(--stroke-color);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border-radius: 9999px;
 }
 
 ul {
@@ -135,7 +150,7 @@ ul li a {
   -webkit-backdrop-filter: blur(4px);
 
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 500px;
   transition: background 1s;
 }
 
