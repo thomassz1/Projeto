@@ -24,9 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-## ⚙️ Ajustes e Melhorias
-
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
+## ⚙️ Funcionalidades
 
 - [x] Efeito hover nos botões
 - [x] Dark Mode e Light Mode funcional
